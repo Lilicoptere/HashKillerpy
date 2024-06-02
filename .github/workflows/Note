@@ -1,0 +1,36 @@
+Installation de HashKiller sur Debian :
+
+JP:
+https://github.com/usethisname1419/HashKiller
+
+git clone https://github.com/usethisname1419/HashKiller.git
+
+cd HashKiller
+chmod +x install.sh
+sudo ./install.sh
+
+Suite Lilian :
+Installation nécéssaire complémentaire :
+
+argparse :
+sudo apt-get install python3-argparse-manpage
+
+
+Install Passlib:
+pip install passlib --break-system-packages
+
+
+Installer colorama
+sudo apt-get install python3-colorama
+
+Installe de Psutil
+sudo apt-get install python-psutil
+
+Installation Compléte :
+
+Commande :
+
+python3 hashkiller.py --hash Matt.txt --hash-type sha1
+
+Fichier Matt.txt dans le dossier HashKiller contient :
+6648507dc33608c27c41366ba71209765cb40565
